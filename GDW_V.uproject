@@ -11,5 +11,8 @@
 				"Editor"
 			]
 		}
+	],
+	"AdditionalPluginDirectories": [
+		"Content/Blueprints/Editor"
 	]
 }
