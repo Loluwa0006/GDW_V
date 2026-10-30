@@ -58,3 +58,4 @@ Handles the visual effects of a player interacting with an interactable object i
 
 Plugin/DLL implementation:
 
+This is packaged into a plugin recognized by Unreal Engine, and the purpose of this project is that the project itself is used as a tool/plugin rather than it be a game on its own. The release is a folder of the plugin we showed in the video, containing all the blueprints and classes for the camera system, with the idea that this system can be integrated with any new project.
