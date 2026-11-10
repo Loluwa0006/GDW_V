@@ -10,6 +10,13 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "AYCS",
+			"Enabled": false
 		}
+	],
+	"AdditionalPluginDirectories": [
+		"Content/Blueprints/Editor"
 	]
 }
