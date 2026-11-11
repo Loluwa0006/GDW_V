@@ -14,6 +14,10 @@
 		{
 			"Name": "AYCS",
 			"Enabled": false
+		},
+		{
+			"Name": "MeshTerrainMode",
+			"Enabled": true
 		}
 	],
 	"AdditionalPluginDirectories": [
