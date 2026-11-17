@@ -35,7 +35,7 @@ Yes, my pattern improved performance, because it restricted the amount of times 
 
 "Can you demonstrate what the profiling process revealed?"
 
-Profiling revealed that the performance of the game was going down over time as the number of active VFX increased.
+Profiling revealed that the performance of the game immediately tanks on startup when using the dirty flag system due to the large amount of VFX created in a single call, but gradually becomes better before reaching an average that is about 50% higher frames then the non dirty flag system.
 
 Blueprint Screenshots:
 
