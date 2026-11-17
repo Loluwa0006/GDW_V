@@ -1,0 +1,2171 @@
+﻿# Diversion English translation.
+# Fill out your copyright notice in the Description page of Project Settings.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Diversion\n"
+"POT-Creation-Date: 2026-10-22 17:01\n"
+"PO-Revision-Date: 2026-10-22 17:01\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	General Settings
+#. SourceLocation:	Meta-data for key Category of member bEnableSoftLock in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key Category of member bEnableSoftLock in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectCategory,General Settings"
+msgid "General Settings"
+msgstr "General Settings"
+
+#. Key:	DiversionConfig:bEnableChangesWatcher
+#. SourceLocation:	Meta-data for key DisplayName of member bEnableChangesWatcher in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key DisplayName of member bEnableChangesWatcher in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectDisplayNames,DiversionConfig:bEnableChangesWatcher"
+msgid "Enable External Changes Watcher"
+msgstr "Enable External Changes Watcher"
+
+#. Key:	DiversionConfig:bEnableSoftLock
+#. SourceLocation:	Meta-data for key DisplayName of member bEnableSoftLock in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key DisplayName of member bEnableSoftLock in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectDisplayNames,DiversionConfig:bEnableSoftLock"
+msgid "Enable Diversion Auto Soft Lock Confirmations"
+msgstr "Enable Diversion Auto Soft Lock Confirmations"
+
+#. Key:	DiversionConfig:bHardLocksAvailable
+#. SourceLocation:	Meta-data for key DisplayName of member bHardLocksAvailable in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key DisplayName of member bHardLocksAvailable in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectDisplayNames,DiversionConfig:bHardLocksAvailable"
+msgid "Hard Locks Available"
+msgstr "Hard Locks Available"
+
+#. Key:	DiversionConfig:bLockByDefaultOnSave
+#. SourceLocation:	Meta-data for key DisplayName of member bLockByDefaultOnSave in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key DisplayName of member bLockByDefaultOnSave in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectDisplayNames,DiversionConfig:bLockByDefaultOnSave"
+msgid "Lock by Default on Save"
+msgstr "Lock by Default on Save"
+
+#. Key:	DiversionConfig:bPromptToLockOnSave
+#. SourceLocation:	Meta-data for key DisplayName of member bPromptToLockOnSave in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key DisplayName of member bPromptToLockOnSave in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectDisplayNames,DiversionConfig:bPromptToLockOnSave"
+msgid "Prompt to Lock Assets on Save"
+msgstr "Prompt to Lock Assets on Save"
+
+#. Key:	DiversionConfig:bShowSupportLinksInLogs
+#. SourceLocation:	Meta-data for key DisplayName of member bShowSupportLinksInLogs in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key DisplayName of member bShowSupportLinksInLogs in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectDisplayNames,DiversionConfig:bShowSupportLinksInLogs"
+msgid "Show Support Links in Logs"
+msgstr "Show Support Links in Logs"
+
+#. Key:	DiversionConfig:ResponseCacheSize
+#. SourceLocation:	Meta-data for key DisplayName of member ResponseCacheSize in DiversionConfig (type: IntProperty, owner: DiversionConfig)
+#: Meta-data for key DisplayName of member ResponseCacheSize in DiversionConfig (type: IntProperty, owner: DiversionConfig)
+msgctxt "UObjectDisplayNames,DiversionConfig:ResponseCacheSize"
+msgid "HTTP Response Cache Size"
+msgstr "HTTP Response Cache Size"
+
+#. Key:	DiversionConfig:bEnableChangesWatcher
+#. SourceLocation:	Meta-data for key ToolTip of member bEnableChangesWatcher in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key ToolTip of member bEnableChangesWatcher in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectToolTips,DiversionConfig:bEnableChangesWatcher"
+msgid "If checked, Diversion will automatically detect and reload files that have been modified externally. e.g. by switching branches, resetting changes from the app etc. (requires editor restart)"
+msgstr "If checked, Diversion will automatically detect and reload files that have been modified externally. e.g. by switching branches, resetting changes from the app etc. (requires editor restart)"
+
+#. Key:	DiversionConfig:bEnableSoftLock
+#. SourceLocation:	Meta-data for key ToolTip of member bEnableSoftLock in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key ToolTip of member bEnableSoftLock in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectToolTips,DiversionConfig:bEnableSoftLock"
+msgid "If unchecked, Diversion will not warn for potential conflicts before opening and saving files that have been modified in another branch or workspace"
+msgstr "If unchecked, Diversion will not warn for potential conflicts before opening and saving files that have been modified in another branch or workspace"
+
+#. Key:	DiversionConfig:bHardLocksAvailable
+#. SourceLocation:	Meta-data for key ToolTip of member bHardLocksAvailable in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key ToolTip of member bHardLocksAvailable in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectToolTips,DiversionConfig:bHardLocksAvailable"
+msgid "Whether the current repository's tier supports hard locks. Not a setting: the provider\nwrites it when eligibility resolves (and clears it on close), and the EditCondition\nabove reads it to grey the prompt setting out where it can do nothing. The stored\nvalue of the setting is never touched, so a later Studio+ repo sees it as left."
+msgstr "Whether the current repository's tier supports hard locks. Not a setting: the provider\nwrites it when eligibility resolves (and clears it on close), and the EditCondition\nabove reads it to grey the prompt setting out where it can do nothing. The stored\nvalue of the setting is never touched, so a later Studio+ repo sees it as left."
+
+#. Key:	DiversionConfig:bLockByDefaultOnSave
+#. SourceLocation:	Meta-data for key ToolTip of member bLockByDefaultOnSave in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key ToolTip of member bLockByDefaultOnSave in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectToolTips,DiversionConfig:bLockByDefaultOnSave"
+msgid "If checked, the save dialog starts on Lock & Save for each asset. Uncheck to start on Save (without lock) instead. You can still change the choice per asset."
+msgstr "If checked, the save dialog starts on Lock & Save for each asset. Uncheck to start on Save (without lock) instead. You can still change the choice per asset."
+
+#. Key:	DiversionConfig:bPromptToLockOnSave
+#. SourceLocation:	Meta-data for key ToolTip of member bPromptToLockOnSave in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key ToolTip of member bPromptToLockOnSave in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectToolTips,DiversionConfig:bPromptToLockOnSave"
+msgid "Ask per asset whether to lock it when saving. Turning this off only skips the question. Lockable assets are still locked automatically on save. Requires a Studio or Enterprise repository."
+msgstr "Ask per asset whether to lock it when saving. Turning this off only skips the question. Lockable assets are still locked automatically on save. Requires a Studio or Enterprise repository."
+
+#. Key:	DiversionConfig:bShowSupportLinksInLogs
+#. SourceLocation:	Meta-data for key ToolTip of member bShowSupportLinksInLogs in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+#: Meta-data for key ToolTip of member bShowSupportLinksInLogs in DiversionConfig (type: BoolProperty, owner: DiversionConfig)
+msgctxt "UObjectToolTips,DiversionConfig:bShowSupportLinksInLogs"
+msgid "If checked, Diversion error and warning messages that suggest contacting support also print the documentation and Discord links. Uncheck to keep these links out of the log."
+msgstr "If checked, Diversion error and warning messages that suggest contacting support also print the documentation and Discord links. Uncheck to keep these links out of the log."
+
+#. Key:	DiversionConfig:ResponseCacheSize
+#. SourceLocation:	Meta-data for key ToolTip of member ResponseCacheSize in DiversionConfig (type: IntProperty, owner: DiversionConfig)
+#: Meta-data for key ToolTip of member ResponseCacheSize in DiversionConfig (type: IntProperty, owner: DiversionConfig)
+msgctxt "UObjectToolTips,DiversionConfig:ResponseCacheSize"
+msgid "Maximum number of HTTP responses to cache for conditional requests (ETag caching). Higher values use more memory but may reduce network requests. Minimum: 10. (requires editor restart)"
+msgstr "Maximum number of HTTP responses to cache for conditional requests (ETag caching). Higher values use more memory but may reduce network requests. Minimum: 10. (requires editor restart)"
+
+#. Key:	DiversionPopup_ReloadChangesButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(296)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(296)
+msgctxt "FChangesWatcherModule,DiversionPopup_ReloadChangesButton"
+msgid "Reload"
+msgstr "Reload"
+
+#. Key:	DiversionPopup_ReloadChangesButton_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(297)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(297)
+msgctxt "FChangesWatcherModule,DiversionPopup_ReloadChangesButton_Tooltip"
+msgid "Reload assets from disk, to get updates from teammates.This ensures that any future modifications you make are on top of your teammate's changes, to prevent conflicts."
+msgstr "Reload assets from disk, to get updates from teammates.This ensures that any future modifications you make are on top of your teammate's changes, to prevent conflicts."
+
+#. Key:	ChangesWatcherPIEActive
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(326)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(326)
+msgctxt "FChangesWatcherModule,ChangesWatcherPIEActive"
+msgid "Stop Play In Editor before reloading -- some changes require a level rebuild."
+msgstr "Stop Play In Editor before reloading -- some changes require a level rebuild."
+
+#. Key:	ChangesWatcherActiveMapDeleted
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(346)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(346)
+msgctxt "FChangesWatcherModule,ChangesWatcherActiveMapDeleted"
+msgid "The level you have open was deleted. Open a different level first, then reload."
+msgstr "The level you have open was deleted. Open a different level first, then reload."
+
+#. Key:	ChangesWatcherNamesSeparator
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(400)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(400)
+msgctxt "FChangesWatcherModule,ChangesWatcherNamesSeparator"
+msgid ", "
+msgstr ", "
+
+#. Key:	ChangesWatcherNamesMore
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(403)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(403)
+msgctxt "FChangesWatcherModule,ChangesWatcherNamesMore"
+msgid "{0}, and {1} more"
+msgstr "{0}, and {1} more"
+
+#. Key:	ChangesWatcherUnsavedChangesExist
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(408)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(408)
+msgctxt "FChangesWatcherModule,ChangesWatcherUnsavedChangesExist"
+msgid "Packages reload failed. Please save these unsaved packages first: {0}"
+msgstr "Packages reload failed. Please save these unsaved packages first: {0}"
+
+#. Key:	DiversionPopup_SnoozeChangesButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(435)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(435)
+msgctxt "FChangesWatcherModule,DiversionPopup_SnoozeChangesButton"
+msgid "Snooze"
+msgstr "Snooze"
+
+#. Key:	DiversionPopup_SnoozeChangesButton_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(436)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(436)
+msgctxt "FChangesWatcherModule,DiversionPopup_SnoozeChangesButton_Tooltip"
+msgid "Remind me again in 30 seconds"
+msgstr "Remind me again in 30 seconds"
+
+#. Key:	ChangesWatcherBatchReady
+#. SourceLocation:	Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(443)
+#: Plugins/unreal-diversion/Source/ChangesWatcher/Private/ChangesWatcher.cpp(443)
+msgctxt "FChangesWatcherModule,ChangesWatcherBatchReady"
+msgid "Diversion: Some open assets may have changed on disk. Consider reloading to ensure you're working with the latest version."
+msgstr "Diversion: Some open assets may have changed on disk. Consider reloading to ensure you're working with the latest version."
+
+#. Key:	DismissMessageButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Common/Private/NotificationManager.cpp(67)
+#: Plugins/unreal-diversion/Source/Common/Private/NotificationManager.cpp(67)
+msgctxt "Diversion,DismissMessageButton"
+msgid "Dismiss"
+msgstr "Dismiss"
+
+#. Key:	DismissMessageButton_Ok
+#. SourceLocation:	Plugins/unreal-diversion/Source/Common/Private/NotificationManager.cpp(68)
+#: Plugins/unreal-diversion/Source/Common/Private/NotificationManager.cpp(68)
+msgctxt "Diversion,DismissMessageButton_Ok"
+msgid "Ok"
+msgstr "Ok"
+
+#. Key:	DiversionPopup_CommitConflicts
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(21)
+#: Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(21)
+msgctxt "Diversion,DiversionPopup_CommitConflicts"
+msgid "Unable to commit due to existing conflicts, please run update using the button below or the Diversion desktop app and resolve the conflicts to continue."
+msgstr "Unable to commit due to existing conflicts, please run update using the button below or the Diversion desktop app and resolve the conflicts to continue."
+
+#. Key:	DiversionPopup_UpdateButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(26)
+#: Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(26)
+msgctxt "Diversion,DiversionPopup_UpdateButton"
+msgid "Update"
+msgstr "Update"
+
+#. Key:	DiversionPopup_UpdateButton_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(27)
+#: Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(27)
+msgctxt "Diversion,DiversionPopup_UpdateButton_Tooltip"
+msgid "Update the workspace to pull the latest changes and show any conflicts"
+msgstr "Update the workspace to pull the latest changes and show any conflicts"
+
+#. Key:	DiversionPopup_CommitLockedFiles_More
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(69)
+#: Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(69)
+msgctxt "Diversion,DiversionPopup_CommitLockedFiles_More"
+msgid "{0}\n... and {1} more"
+msgstr "{0}\n... and {1} more"
+
+#. Key:	DiversionPopup_CommitLockedFiles
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(78)
+#: Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/SyncCommitWorkspace.cpp(78)
+msgctxt "Diversion,DiversionPopup_CommitLockedFiles"
+msgid "Commit blocked - file(s) locked by another user:\n\n{0}\n\nSaving these changes requires the files to be unlocked by their holder or a repository admin."
+msgstr "Commit blocked - file(s) locked by another user:\n\n{0}\n\nSaving these changes requires the files to be unlocked by their holder or a repository admin."
+
+#. Key:	DiversionPopup_OpenMergesInDiversion
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/UpdateWorkspace.cpp(43)
+#: Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/UpdateWorkspace.cpp(43)
+msgctxt "Diversion,DiversionPopup_OpenMergesInDiversion"
+msgid "Show in Diversion"
+msgstr "Show in Diversion"
+
+#. Key:	DiversionPopup_OpenMergesInDiversion_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/UpdateWorkspace.cpp(44)
+#: Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/UpdateWorkspace.cpp(44)
+msgctxt "Diversion,DiversionPopup_OpenMergesInDiversion_Tooltip"
+msgid "Open Merge view in Diversion"
+msgstr "Open Merge view in Diversion"
+
+#. Key:	Diversion_ConflictedFilesInWorkspace
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/UpdateWorkspace.cpp(68)
+#: Plugins/unreal-diversion/Source/Diversion/Private/ApiCalls/UpdateWorkspace.cpp(68)
+msgctxt "Diversion,Diversion_ConflictedFilesInWorkspace"
+msgid "Workspace contains conflicted files. Resolve conflicts first to continue with the workspace update."
+msgstr "Workspace contains conflicted files. Resolve conflicts first to continue with the workspace update."
+
+#. Key:	KeepMarked_Text
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/ConfirmationDialog.cpp(145)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/ConfirmationDialog.cpp(145)
+msgctxt "ConfirmationDialog,KeepMarked_Text"
+msgid "Keep these checkboxes marked for next time"
+msgstr "Keep these checkboxes marked for next time"
+
+#. Key:	AdditionalLinksSeparator
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/ConfirmationDialog.cpp(242)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/ConfirmationDialog.cpp(242)
+msgctxt "ConfirmationDialog,AdditionalLinksSeparator"
+msgid " | "
+msgstr " | "
+
+#. Key:	CommitOperationFailed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(119)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(119)
+msgctxt "DiversionCommitHelper,CommitOperationFailed"
+msgid "Failed checking revision control status!"
+msgstr "Failed checking revision control status!"
+
+#. Key:	NoSCCConnection
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(33)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(33)
+msgctxt "DiversionCommitHelper,NoSCCConnection"
+msgid "No connection to revision control available!"
+msgstr "No connection to revision control available!"
+
+#. Key:	CommitAssetsIndicator
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(58)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(58)
+msgctxt "DiversionCommitHelper,CommitAssetsIndicator"
+msgid "Looking for assets to commit..."
+msgstr "Looking for assets to commit..."
+
+#. Key:	Commit_CancelButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(66)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(66)
+msgctxt "DiversionCommitHelper,Commit_CancelButton"
+msgid "Cancel"
+msgstr "Cancel"
+
+#. Key:	Commit_CancelButtonTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(67)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionCommitHelper.cpp(67)
+msgctxt "DiversionCommitHelper,Commit_CancelButtonTooltip"
+msgid "Cancel the commit operation."
+msgstr "Cancel the commit operation."
+
+#. Key:	HardLockedByOther_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionHardLockUI.cpp(54)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionHardLockUI.cpp(54)
+msgctxt "DiversionHardLock,HardLockedByOther_Tooltip"
+msgid "Locked by {0} since {1}"
+msgstr "Locked by {0} since {1}"
+
+#. Key:	HardLockedByMe_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionHardLockUI.cpp(57)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionHardLockUI.cpp(57)
+msgctxt "DiversionHardLock,HardLockedByMe_Tooltip"
+msgid "Locked by you since {0}"
+msgstr "Locked by you since {0}"
+
+#. Key:	LockTransportFailed_Lock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(107)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(107)
+msgctxt "DiversionLockContextMenu,LockTransportFailed_Lock"
+msgid "Diversion could not reach the lock service - the lock operation did not complete."
+msgstr "Diversion could not reach the lock service - the lock operation did not complete."
+
+#. Key:	LockTransportFailed_Unlock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(111)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(111)
+msgctxt "DiversionLockContextMenu,LockTransportFailed_Unlock"
+msgid "Diversion could not reach the lock service - the unlock operation did not complete."
+msgstr "Diversion could not reach the lock service - the unlock operation did not complete."
+
+#. Key:	LockTransportFailed_ForceUnlock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(116)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(116)
+msgctxt "DiversionLockContextMenu,LockTransportFailed_ForceUnlock"
+msgid "Diversion could not reach the lock service - the force-unlock operation did not complete."
+msgstr "Diversion could not reach the lock service - the force-unlock operation did not complete."
+
+#. Key:	LockTransportFailed_Partial
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(122)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(122)
+msgctxt "DiversionLockContextMenu,LockTransportFailed_Partial"
+msgid "{0}\n{1} before the failure."
+msgstr "{0}\n{1} before the failure."
+
+#. Key:	LockTransportFailed_NotProcessed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(127)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(127)
+msgctxt "DiversionLockContextMenu,LockTransportFailed_NotProcessed"
+msgid "{0}\n{1} {1}|plural(one=file was,other=files were) not attempted."
+msgstr "{0}\n{1} {1}|plural(one=file was,other=files were) not attempted."
+
+#. Key:	LockTransportFailed_SeeLog
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(131)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(131)
+msgctxt "DiversionLockContextMenu,LockTransportFailed_SeeLog"
+msgid "{0}\nSee the Output Log for details."
+msgstr "{0}\nSee the Output Log for details."
+
+#. Key:	LockActionFailed_Detail
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(157)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(157)
+msgctxt "DiversionLockContextMenu,LockActionFailed_Detail"
+msgid "'{0}': {1}"
+msgstr "'{0}': {1}"
+
+#. Key:	LockFailed_Generic
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(161)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(161)
+msgctxt "DiversionLockContextMenu,LockFailed_Generic"
+msgid "Could not lock '{0}' - it is already locked by another user."
+msgstr "Could not lock '{0}' - it is already locked by another user."
+
+#. Key:	UnlockFailed_NotHolder
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(166)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(166)
+msgctxt "DiversionLockContextMenu,UnlockFailed_NotHolder"
+msgid "Could not unlock '{0}' - the lock is held by another user. Only the holder can release it; a repository admin can use Force Unlock."
+msgstr "Could not unlock '{0}' - the lock is held by another user. Only the holder can release it; a repository admin can use Force Unlock."
+
+#. Key:	ForceUnlockFailed_NotAdmin
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(171)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(171)
+msgctxt "DiversionLockContextMenu,ForceUnlockFailed_NotAdmin"
+msgid "Force Unlock failed for '{0}' - releasing another user's lock requires repository admin permissions."
+msgstr "Force Unlock failed for '{0}' - releasing another user's lock requires repository admin permissions."
+
+#. Key:	LockActionFailed_Generic
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(176)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(176)
+msgctxt "DiversionLockContextMenu,LockActionFailed_Generic"
+msgid "Lock operation failed for '{0}' (HTTP {1})."
+msgstr "Lock operation failed for '{0}' (HTTP {1})."
+
+#. Key:	LockActionFailed_More
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(182)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(182)
+msgctxt "DiversionLockContextMenu,LockActionFailed_More"
+msgid "{0}\n(+{1} more - see Output Log)"
+msgstr "{0}\n(+{1} more - see Output Log)"
+
+#. Key:	LockActionFailed_PartialSuccess
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(188)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(188)
+msgctxt "DiversionLockContextMenu,LockActionFailed_PartialSuccess"
+msgid "{0}.\n{1}"
+msgstr "{0}.\n{1}"
+
+#. Key:	DiversionLocksSectionHeading
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(254)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(254)
+msgctxt "DiversionLockContextMenu,DiversionLocksSectionHeading"
+msgid "Diversion Locks"
+msgstr "Diversion Locks"
+
+#. Key:	LockEntry
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(259)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(259)
+msgctxt "DiversionLockContextMenu,LockEntry"
+msgid "Lock"
+msgstr "Lock"
+
+#. Key:	LockEntry_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(261)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(261)
+msgctxt "DiversionLockContextMenu,LockEntry_Tooltip"
+msgid "Lock the selected files so only you can commit changes to them (others can still save locally)."
+msgstr "Lock the selected files so only you can commit changes to them (others can still save locally)."
+
+#. Key:	LockEntry_DisabledTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(262)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(262)
+msgctxt "DiversionLockContextMenu,LockEntry_DisabledTooltip"
+msgid "All selected files are already locked."
+msgstr "All selected files are already locked."
+
+#. Key:	UnlockEntry
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(272)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(272)
+msgctxt "DiversionLockContextMenu,UnlockEntry"
+msgid "Unlock"
+msgstr "Unlock"
+
+#. Key:	UnlockEntry_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(274)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(274)
+msgctxt "DiversionLockContextMenu,UnlockEntry_Tooltip"
+msgid "Release your lock on the selected files."
+msgstr "Release your lock on the selected files."
+
+#. Key:	UnlockEntry_DisabledTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(275)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(275)
+msgctxt "DiversionLockContextMenu,UnlockEntry_DisabledTooltip"
+msgid "No selected file is locked by you."
+msgstr "No selected file is locked by you."
+
+#. Key:	ForceUnlockEntry
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(288)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(288)
+msgctxt "DiversionLockContextMenu,ForceUnlockEntry"
+msgid "Force Unlock"
+msgstr "Force Unlock"
+
+#. Key:	ForceUnlockEntry_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(289)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(289)
+msgctxt "DiversionLockContextMenu,ForceUnlockEntry_Tooltip"
+msgid "Release another user's lock on the selected files. Requires repository admin permissions."
+msgstr "Release another user's lock on the selected files. Requires repository admin permissions."
+
+#. Key:	ForceUnlockDialogTitle
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(336)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(336)
+msgctxt "DiversionLockContextMenu,ForceUnlockDialogTitle"
+msgid "Diversion - Force Unlock"
+msgstr "Diversion - Force Unlock"
+
+#. Key:	ForceUnlockConfirmButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(345)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(345)
+msgctxt "DiversionLockContextMenu,ForceUnlockConfirmButton"
+msgid "Force Unlock"
+msgstr "Force Unlock"
+
+#. Key:	ForceUnlockCancelButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(347)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(347)
+msgctxt "DiversionLockContextMenu,ForceUnlockCancelButton"
+msgid "Cancel"
+msgstr "Cancel"
+
+#. Key:	ForceUnlockConfirm_Single
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(57)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(57)
+msgctxt "DiversionLockContextMenu,ForceUnlockConfirm_Single"
+msgid "Release {0}'s lock on '{1}'?\n\nThey will lose the lock's protection: anyone will be able to lock or commit this file while their work is still in progress."
+msgstr "Release {0}'s lock on '{1}'?\n\nThey will lose the lock's protection: anyone will be able to lock or commit this file while their work is still in progress."
+
+#. Key:	ForceUnlockConfirm_FileLine
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(67)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(67)
+msgctxt "DiversionLockContextMenu,ForceUnlockConfirm_FileLine"
+msgid "{0} - {1}"
+msgstr "{0} - {1}"
+
+#. Key:	ForceUnlockConfirm_More
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(72)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(72)
+msgctxt "DiversionLockContextMenu,ForceUnlockConfirm_More"
+msgid "...and {0} more"
+msgstr "...and {0} more"
+
+#. Key:	ForceUnlockConfirm_Multi
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(74)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(74)
+msgctxt "DiversionLockContextMenu,ForceUnlockConfirm_Multi"
+msgid "Release the locks held on {0} files?\n\n{1}\n\nThe holders will lose their locks' protection: anyone will be able to lock or commit these files while their work is still in progress."
+msgstr "Release the locks held on {0} files?\n\n{1}\n\nThe holders will lose their locks' protection: anyone will be able to lock or commit these files while their work is still in progress."
+
+#. Key:	LockSucceeded
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(87)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(87)
+msgctxt "DiversionLockContextMenu,LockSucceeded"
+msgid "Locked {0} {0}|plural(one=file,other=files)"
+msgstr "Locked {0} {0}|plural(one=file,other=files)"
+
+#. Key:	UnlockSucceeded
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(89)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(89)
+msgctxt "DiversionLockContextMenu,UnlockSucceeded"
+msgid "Unlocked {0} {0}|plural(one=file,other=files)"
+msgstr "Unlocked {0} {0}|plural(one=file,other=files)"
+
+#. Key:	ForceUnlockSucceeded
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(92)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionLockContextMenu.cpp(92)
+msgctxt "DiversionLockContextMenu,ForceUnlockSucceeded"
+msgid "Force-released {0} {0}|plural(one=lock,other=locks)"
+msgstr "Force-released {0} {0}|plural(one=lock,other=locks)"
+
+#. Key:	PotentialClashColumnName
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionSceneOutlinerColumn.cpp(132)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionSceneOutlinerColumn.cpp(132)
+msgctxt "Diversion.SceneOutlinerColumn,PotentialClashColumnName"
+msgid "Potential Conflicts"
+msgstr "Potential Conflicts"
+
+#. Key:	PotentialClashColumnTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionSceneOutlinerColumn.cpp(148)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionSceneOutlinerColumn.cpp(148)
+msgctxt "Diversion.SceneOutlinerColumn,PotentialClashColumnTooltip"
+msgid "Potential Conflicts"
+msgstr "Potential Conflicts"
+
+#. Key:	BranchName
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(108)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(108)
+msgctxt "DiversionStatusPanel,BranchName"
+msgid "on branch: {0}"
+msgstr "on branch: {0}"
+
+#. Key:	SyncStatus_InProgress
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(122)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(122)
+msgctxt "DiversionStatusPanel,SyncStatus_InProgress"
+msgid "Syncing..."
+msgstr "Syncing..."
+
+#. Key:	SyncStatus_Completed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(124)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(124)
+msgctxt "DiversionStatusPanel,SyncStatus_Completed"
+msgid "Synced"
+msgstr "Synced"
+
+#. Key:	SyncStatus_Paused
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(126)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(126)
+msgctxt "DiversionStatusPanel,SyncStatus_Paused"
+msgid "Paused"
+msgstr "Paused"
+
+#. Key:	SyncStatus_PathError
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(128)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(128)
+msgctxt "DiversionStatusPanel,SyncStatus_PathError"
+msgid "Path Error"
+msgstr "Path Error"
+
+#. Key:	DiversionStatusTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(22)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/DiversionStatusPanel.cpp(22)
+msgctxt "DiversionStatusPanel,DiversionStatusTooltip"
+msgid "Shows the current Diversion workspace branch and sync status"
+msgstr "Shows the current Diversion workspace branch and sync status"
+
+#. Key:	Column_File
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(134)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(134)
+msgctxt "DiversionLockedFiles,Column_File"
+msgid "File"
+msgstr "File"
+
+#. Key:	Column_Holder
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(137)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(137)
+msgctxt "DiversionLockedFiles,Column_Holder"
+msgid "Locked by"
+msgstr "Locked by"
+
+#. Key:	Column_LockedSince
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(140)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(140)
+msgctxt "DiversionLockedFiles,Column_LockedSince"
+msgid "Locked since"
+msgstr "Locked since"
+
+#. Key:	Column_Source
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(143)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(143)
+msgctxt "DiversionLockedFiles,Column_Source"
+msgid "Source"
+msgstr "Source"
+
+#. Key:	Column_Source_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(144)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(144)
+msgctxt "DiversionLockedFiles,Column_Source_Tooltip"
+msgid "How the lock was acquired, as reported by the server."
+msgstr "How the lock was acquired, as reported by the server."
+
+#. Key:	ProviderInactive
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(166)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(166)
+msgctxt "DiversionLockedFiles,ProviderInactive"
+msgid "Diversion is not the active revision control provider, so lock information is no longer being updated."
+msgstr "Diversion is not the active revision control provider, so lock information is no longer being updated."
+
+#. Key:	NoLocks
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(172)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(172)
+msgctxt "DiversionLockedFiles,NoLocks"
+msgid "No files are locked in this repository."
+msgstr "No files are locked in this repository."
+
+#. Key:	LocksLoading
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(173)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(173)
+msgctxt "DiversionLockedFiles,LocksLoading"
+msgid "Checking for locked files..."
+msgstr "Checking for locked files..."
+
+#. Key:	Holder_Me
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(224)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(224)
+msgctxt "DiversionLockedFiles,Holder_Me"
+msgid "You"
+msgstr "You"
+
+#. Key:	LockedFilesTitle
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(257)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionLockedFilesDialog.cpp(257)
+msgctxt "DiversionLockedFiles,LockedFilesTitle"
+msgid "Diversion - Locked Files"
+msgstr "Diversion - Locked Files"
+
+#. Key:	Tooltip_AutoLockedByRule
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(102)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(102)
+msgctxt "DiversionSaveDecisionDialog,Tooltip_AutoLockedByRule"
+msgid "This file matches the repository's lockable patterns, so saving locks it for you automatically. The lock releases when you commit."
+msgstr "This file matches the repository's lockable patterns, so saving locks it for you automatically. The lock releases when you commit."
+
+#. Key:	Tooltip_Unlocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(105)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(105)
+msgctxt "DiversionSaveDecisionDialog,Tooltip_Unlocked"
+msgid "Locking claims the file so nobody else can commit it until you release the lock."
+msgstr "Locking claims the file so nobody else can commit it until you release the lock."
+
+#. Key:	GroupTooltip_HardLocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(115)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(115)
+msgctxt "DiversionSaveDecisionDialog,GroupTooltip_HardLocked"
+msgid "These files are locked by other users. Saving syncs your changes to your workspace as usual, but committing them stays blocked until each lock is released."
+msgstr "These files are locked by other users. Saving syncs your changes to your workspace as usual, but committing them stays blocked until each lock is released."
+
+#. Key:	GroupTooltip_SoftLocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(118)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(118)
+msgctxt "DiversionSaveDecisionDialog,GroupTooltip_SoftLocked"
+msgid "Other workspaces have unpublished edits to these files - saving may create conflicts. Locking claims a file so nobody else can commit it."
+msgstr "Other workspaces have unpublished edits to these files - saving may create conflicts. Locking claims a file so nobody else can commit it."
+
+#. Key:	GroupTooltip_LockedByMe
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(121)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(121)
+msgctxt "DiversionSaveDecisionDialog,GroupTooltip_LockedByMe"
+msgid "You hold these locks - the files save without asking. Locks release when you commit."
+msgstr "You hold these locks - the files save without asking. Locks release when you commit."
+
+#. Key:	GroupTooltip_AutoLockedByRule
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(124)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(124)
+msgctxt "DiversionSaveDecisionDialog,GroupTooltip_AutoLockedByRule"
+msgid "These files match the repository's lockable patterns: saving locks them for you automatically, so there is nothing to decide."
+msgstr "These files match the repository's lockable patterns: saving locks them for you automatically, so there is nothing to decide."
+
+#. Key:	GroupTooltip_ChangedOnDisk
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(127)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(127)
+msgctxt "DiversionSaveDecisionDialog,GroupTooltip_ChangedOnDisk"
+msgid "These files changed on disk after you opened them, most likely teammates' changes that Diversion synced. Saving overwrites them; their versions stay in the history."
+msgstr "These files changed on disk after you opened them, most likely teammates' changes that Diversion synced. Saving overwrites them; their versions stay in the history."
+
+#. Key:	GroupTooltip_Unlocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(130)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(130)
+msgctxt "DiversionSaveDecisionDialog,GroupTooltip_Unlocked"
+msgid "Locking claims a file so nobody else can commit it until you release the lock."
+msgstr "Locking claims a file so nobody else can commit it until you release the lock."
+
+#. Key:	Group_HardLocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(140)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(140)
+msgctxt "DiversionSaveDecisionDialog,Group_HardLocked"
+msgid "Locked by others"
+msgstr "Locked by others"
+
+#. Key:	Group_SoftLocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(142)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(142)
+msgctxt "DiversionSaveDecisionDialog,Group_SoftLocked"
+msgid "Being edited elsewhere"
+msgstr "Being edited elsewhere"
+
+#. Key:	Group_LockedByMe
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(144)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(144)
+msgctxt "DiversionSaveDecisionDialog,Group_LockedByMe"
+msgid "Locked by you"
+msgstr "Locked by you"
+
+#. Key:	Group_AutoLockedByRule
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(146)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(146)
+msgctxt "DiversionSaveDecisionDialog,Group_AutoLockedByRule"
+msgid "Locked on save by repo rule"
+msgstr "Locked on save by repo rule"
+
+#. Key:	Group_ChangedOnDisk
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(148)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(148)
+msgctxt "DiversionSaveDecisionDialog,Group_ChangedOnDisk"
+msgid "Changed on disk"
+msgstr "Changed on disk"
+
+#. Key:	Group_Unlocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(150)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(150)
+msgctxt "DiversionSaveDecisionDialog,Group_Unlocked"
+msgid "Not locked"
+msgstr "Not locked"
+
+#. Key:	CellTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(206)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(206)
+msgctxt "DiversionSaveDecisionDialog,CellTooltip"
+msgid "{0}\n\n{1}"
+msgstr "{0}\n\n{1}"
+
+#. Key:	Choice_SaveWithoutLock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(217)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(217)
+msgctxt "DiversionSaveDecisionDialog,Choice_SaveWithoutLock"
+msgid "Save Without Lock"
+msgstr "Save Without Lock"
+
+#. Key:	Choice_SaveMine
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(219)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(219)
+msgctxt "DiversionSaveDecisionDialog,Choice_SaveMine"
+msgid "Save Mine"
+msgstr "Save Mine"
+
+#. Key:	Choice_SaveAnyway
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(221)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(221)
+msgctxt "DiversionSaveDecisionDialog,Choice_SaveAnyway"
+msgid "Save Anyway"
+msgstr "Save Anyway"
+
+#. Key:	Choice_LockAndSave
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(332)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(332)
+msgctxt "DiversionSaveDecisionDialog,Choice_LockAndSave"
+msgid "Lock & Save"
+msgstr "Lock & Save"
+
+#. Key:	Choice_AcceptIncoming
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(339)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(339)
+msgctxt "DiversionSaveDecisionDialog,Choice_AcceptIncoming"
+msgid "Accept Incoming"
+msgstr "Accept Incoming"
+
+#. Key:	Choice_Skip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(342)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(342)
+msgctxt "DiversionSaveDecisionDialog,Choice_Skip"
+msgid "Skip"
+msgstr "Skip"
+
+#. Key:	GroupTitleFmt
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(385)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(385)
+msgctxt "DiversionSaveDecisionDialog,GroupTitleFmt"
+msgid "{0} ({1})"
+msgstr "{0} ({1})"
+
+#. Key:	GroupMixed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(436)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(436)
+msgctxt "DiversionSaveDecisionDialog,GroupMixed"
+msgid "(mixed)"
+msgstr "(mixed)"
+
+#. Key:	HeaderText
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(472)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(472)
+msgctxt "DiversionSaveDecisionDialog,HeaderText"
+msgid "Choose what to do with each group of files before saving. Locking a file prevents others from committing it until you release the lock."
+msgstr "Choose what to do with each group of files before saving. Locking a file prevents others from committing it until you release the lock."
+
+#. Key:	HeaderTextSingle
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(474)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(474)
+msgctxt "DiversionSaveDecisionDialog,HeaderTextSingle"
+msgid "Choose what to do with this file before saving. Locking it prevents others from committing it until you release the lock."
+msgstr "Choose what to do with this file before saving. Locking it prevents others from committing it until you release the lock."
+
+#. Key:	HeaderTextNoLock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(477)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(477)
+msgctxt "DiversionSaveDecisionDialog,HeaderTextNoLock"
+msgid "Choose what to do with each group of files before saving."
+msgstr "Choose what to do with each group of files before saving."
+
+#. Key:	HeaderTextSingleNoLock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(478)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(478)
+msgctxt "DiversionSaveDecisionDialog,HeaderTextSingleNoLock"
+msgid "Choose what to do with this file before saving."
+msgstr "Choose what to do with this file before saving."
+
+#. Key:	NoAutoLockRulesWarning
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(506)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(506)
+msgctxt "DiversionSaveDecisionDialog,NoAutoLockRulesWarning"
+msgid "This repository has no auto-lock rules. Without them, a lock is not released automatically - you will need to unlock the file manually."
+msgstr "This repository has no auto-lock rules. Without them, a lock is not released automatically - you will need to unlock the file manually."
+
+#. Key:	NoAutoLockRulesMoreInfo
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(512)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(512)
+msgctxt "DiversionSaveDecisionDialog,NoAutoLockRulesMoreInfo"
+msgid "More info"
+msgstr "More info"
+
+#. Key:	NoAutoLockRulesMoreInfoTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(513)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(513)
+msgctxt "DiversionSaveDecisionDialog,NoAutoLockRulesMoreInfoTooltip"
+msgid "Learn about auto-lock rules"
+msgstr "Learn about auto-lock rules"
+
+#. Key:	Status_HardLocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(52)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(52)
+msgctxt "DiversionSaveDecisionDialog,Status_HardLocked"
+msgid "Locked by {0} since {1}"
+msgstr "Locked by {0} since {1}"
+
+#. Key:	AutoLockSettings
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(525)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(525)
+msgctxt "DiversionSaveDecisionDialog,AutoLockSettings"
+msgid "Auto-lock settings"
+msgstr "Auto-lock settings"
+
+#. Key:	AutoLockSettingsTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(526)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(526)
+msgctxt "DiversionSaveDecisionDialog,AutoLockSettingsTooltip"
+msgid "Open this repository's hard-lock settings in Diversion"
+msgstr "Open this repository's hard-lock settings in Diversion"
+
+#. Key:	HardLocksMoreInfo
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(551)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(551)
+msgctxt "DiversionSaveDecisionDialog,HardLocksMoreInfo"
+msgid "More info"
+msgstr "More info"
+
+#. Key:	HardLocksMoreInfoTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(552)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(552)
+msgctxt "DiversionSaveDecisionDialog,HardLocksMoreInfoTooltip"
+msgid "Learn about hard locks"
+msgstr "Learn about hard locks"
+
+#. Key:	Status_SoftLocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(56)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(56)
+msgctxt "DiversionSaveDecisionDialog,Status_SoftLocked"
+msgid "Being edited by {0}"
+msgstr "Being edited by {0}"
+
+#. Key:	Column_Asset
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(574)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(574)
+msgctxt "DiversionSaveDecisionDialog,Column_Asset"
+msgid "Asset"
+msgstr "Asset"
+
+#. Key:	Column_File
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(577)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(577)
+msgctxt "DiversionSaveDecisionDialog,Column_File"
+msgid "File"
+msgstr "File"
+
+#. Key:	Column_Status
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(580)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(580)
+msgctxt "DiversionSaveDecisionDialog,Column_Status"
+msgid "Status"
+msgstr "Status"
+
+#. Key:	Column_Action
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(583)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(583)
+msgctxt "DiversionSaveDecisionDialog,Column_Action"
+msgid "Action"
+msgstr "Action"
+
+#. Key:	PredictionDisclaimer
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(597)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(597)
+msgctxt "DiversionSaveDecisionDialog,PredictionDisclaimer"
+msgid "Listed: every unsaved file. If you left files out of this save, they appear here too but will not be saved - an answer only takes effect when its file is actually saved."
+msgstr "Listed: every unsaved file. If you left files out of this save, they appear here too but will not be saved - an answer only takes effect when its file is actually saved."
+
+#. Key:	Status_LockedByMe
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(60)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(60)
+msgctxt "DiversionSaveDecisionDialog,Status_LockedByMe"
+msgid "Locked by you since {0}"
+msgstr "Locked by you since {0}"
+
+#. Key:	Confirm
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(613)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(613)
+msgctxt "DiversionSaveDecisionDialog,Confirm"
+msgid "Confirm"
+msgstr "Confirm"
+
+#. Key:	Cancel
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(619)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(619)
+msgctxt "DiversionSaveDecisionDialog,Cancel"
+msgid "Cancel"
+msgstr "Cancel"
+
+#. Key:	Status_LockedByMeNoDate
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(62)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(62)
+msgctxt "DiversionSaveDecisionDialog,Status_LockedByMeNoDate"
+msgid "Locked by you"
+msgstr "Locked by you"
+
+#. Key:	CancelTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(620)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(620)
+msgctxt "DiversionSaveDecisionDialog,CancelTooltip"
+msgid "Save nothing - the files keep their unsaved changes"
+msgstr "Save nothing - the files keep their unsaved changes"
+
+#. Key:	Status_AutoLockedByRule
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(64)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(64)
+msgctxt "DiversionSaveDecisionDialog,Status_AutoLockedByRule"
+msgid "Locks on save (repo rule)"
+msgstr "Locks on save (repo rule)"
+
+#. Key:	Status_ChangedOnDisk
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(66)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(66)
+msgctxt "DiversionSaveDecisionDialog,Status_ChangedOnDisk"
+msgid "Changed on disk"
+msgstr "Changed on disk"
+
+#. Key:	Status_Unlocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(68)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(68)
+msgctxt "DiversionSaveDecisionDialog,Status_Unlocked"
+msgid "Not locked"
+msgstr "Not locked"
+
+#. Key:	Tooltip_ChangedOnDisk
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(79)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(79)
+msgctxt "DiversionSaveDecisionDialog,Tooltip_ChangedOnDisk"
+msgid "This file changed on disk after you opened it, most likely a teammate's change that Diversion synced. Save Mine overwrites it (their version stays in the history), Accept Incoming drops your unsaved changes and loads it, Skip keeps your changes unsaved."
+msgstr "This file changed on disk after you opened it, most likely a teammate's change that Diversion synced. Save Mine overwrites it (their version stays in the history), Accept Incoming drops your unsaved changes and loads it, Skip keeps your changes unsaved."
+
+#. Key:	Tooltip_ChangedOnDiskLevel
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(81)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(81)
+msgctxt "DiversionSaveDecisionDialog,Tooltip_ChangedOnDiskLevel"
+msgid "This file changed on disk after you opened it, most likely a teammate's change that Diversion synced. Save Mine overwrites it (their version stays in the history), Skip keeps your changes unsaved. A level can't be reloaded one file at a time, so there is no Accept Incoming here."
+msgstr "This file changed on disk after you opened it, most likely a teammate's change that Diversion synced. Save Mine overwrites it (their version stays in the history), Skip keeps your changes unsaved. A level can't be reloaded one file at a time, so there is no Accept Incoming here."
+
+#. Key:	Tooltip_HardLocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(86)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(86)
+msgctxt "DiversionSaveDecisionDialog,Tooltip_HardLocked"
+msgid "Saving will sync your changes to your workspace as usual, but committing this file stays blocked while {0} holds the lock."
+msgstr "Saving will sync your changes to your workspace as usual, but committing this file stays blocked while {0} holds the lock."
+
+#. Key:	Tooltip_SoftLocked
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(92)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(92)
+msgctxt "DiversionSaveDecisionDialog,Tooltip_SoftLocked"
+msgid "Saving may create a conflict with the other workspace's changes. Locking claims the file so nobody else can commit it."
+msgstr "Saving may create a conflict with the other workspace's changes. Locking claims the file so nobody else can commit it."
+
+#. Key:	Tooltip_LockedByMe
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(97)
+#: Plugins/unreal-diversion/Source/Diversion/Private/CustomWidgets/SDiversionSaveDecisionDialog.cpp(97)
+msgctxt "DiversionSaveDecisionDialog,Tooltip_LockedByMe"
+msgid "You already hold this file's lock, so it saves without asking. The lock releases when you commit."
+msgstr "You already hold this file's lock, so it saves without asking. The lock releases when you commit."
+
+#. Key:	WorkspaceChanges
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionChangelistState.h(39)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionChangelistState.h(39)
+msgctxt "DiversionChangelist,WorkspaceChanges"
+msgid "Workspace Changes"
+msgstr "Workspace Changes"
+
+#. Key:	WorkspaceChanges_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionChangelistState.h(62)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionChangelistState.h(62)
+msgctxt "DiversionChangelist,WorkspaceChanges_Tooltip"
+msgid "Diversion workspace changes"
+msgstr "Diversion workspace changes"
+
+#. Key:	DefaultAccount
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionCredentialsManager.cpp(142)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionCredentialsManager.cpp(142)
+msgctxt "Diversion,DefaultAccount"
+msgid "your account"
+msgstr "your account"
+
+#. Key:	TokenLoginRequired
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionCredentialsManager.cpp(147)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionCredentialsManager.cpp(147)
+msgctxt "Diversion,TokenLoginRequired"
+msgid "Diversion: the session for {0} has expired. Log in to Diversion again."
+msgstr "Diversion: the session for {0} has expired. Log in to Diversion again."
+
+#. Key:	TokenNoCredentials
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionCredentialsManager.cpp(151)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionCredentialsManager.cpp(151)
+msgctxt "Diversion,TokenNoCredentials"
+msgid "Diversion: no login found for {0}. Log in to Diversion with this account, or update Diversion to the latest version."
+msgstr "Diversion: no login found for {0}. Log in to Diversion with this account, or update Diversion to the latest version."
+
+#. Key:	TokenExpired
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionCredentialsManager.cpp(155)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionCredentialsManager.cpp(155)
+msgctxt "Diversion,TokenExpired"
+msgid "Diversion: could not get a valid login for {0}. Update Diversion to the latest version, and log in again if this continues."
+msgstr "Diversion: could not get a valid login for {0}. Update Diversion to the latest version, and log in again if this continues."
+
+#. Key:	FileHelpers_Warning_Notification
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(33)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(33)
+msgctxt "DiversionEngineTextOverrides,FileHelpers_Warning_Notification"
+msgid "Some assets were not saved yet. If Diversion held them back, a save dialog will follow to decide per file."
+msgstr "Some assets were not saved yet. If Diversion held them back, a save dialog will follow to decide per file."
+
+#. Key:	UnsavedAssetsTracker_Locked_by_Other_Warning
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(36)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(36)
+msgctxt "DiversionEngineTextOverrides,UnsavedAssetsTracker_Locked_by_Other_Warning"
+msgid "Warning: Assets you have edited are also being edited in another branch or workspace."
+msgstr "Warning: Assets you have edited are also being edited in another branch or workspace."
+
+#. Key:	AssetSourceControlContextMenu_SCCRevert
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(39)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(39)
+msgctxt "DiversionEngineTextOverrides,AssetSourceControlContextMenu_SCCRevert"
+msgid "Reset"
+msgstr "Reset"
+
+#. Key:	AssetSourceControlContextMenu_SCCRevertTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(42)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(42)
+msgctxt "DiversionEngineTextOverrides,AssetSourceControlContextMenu_SCCRevertTooltip"
+msgid "Resets the selected assets to their original state from Diversion."
+msgstr "Resets the selected assets to their original state from Diversion."
+
+#. Key:	SourceControl_SourceControl_CheckIn
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(45)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(45)
+msgctxt "DiversionEngineTextOverrides,SourceControl_SourceControl_CheckIn"
+msgid "Committing file(s) to Diversion..."
+msgstr "Committing file(s) to Diversion..."
+
+#. Key:	SourceControl_SourceControl_Revert
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(48)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(48)
+msgctxt "DiversionEngineTextOverrides,SourceControl_SourceControl_Revert"
+msgid "Resetting file(s) in Diversion..."
+msgstr "Resetting file(s) in Diversion..."
+
+#. Key:	SourceControl.RevertWindow_Title
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(51)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(51)
+msgctxt "DiversionEngineTextOverrides,SourceControl.RevertWindow_Title"
+msgid "Reset Files"
+msgstr "Reset Files"
+
+#. Key:	SourceControl.Revert_SelectFiles
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(54)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(54)
+msgctxt "DiversionEngineTextOverrides,SourceControl.Revert_SelectFiles"
+msgid "Select the files to reset below"
+msgstr "Select the files to reset below"
+
+#. Key:	SourceControl.Revert_RevertUnchanged
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(57)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(57)
+msgctxt "DiversionEngineTextOverrides,SourceControl.Revert_RevertUnchanged"
+msgid "Reset Unchanged Only"
+msgstr "Reset Unchanged Only"
+
+#. Key:	SSourceControlRevert_RevertButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(60)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(60)
+msgctxt "DiversionEngineTextOverrides,SSourceControlRevert_RevertButton"
+msgid "Reset"
+msgstr "Reset"
+
+#. Key:	FileSourceControlActions_SCCRevertTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(63)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(63)
+msgctxt "DiversionEngineTextOverrides,FileSourceControlActions_SCCRevertTooltip"
+msgid "Resets the selected files to their original state from Diversion."
+msgstr "Resets the selected files to their original state from Diversion."
+
+#. Key:	SourceControlWindows_ChooseAssetsToCheckInIndicator
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(66)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(66)
+msgctxt "DiversionEngineTextOverrides,SourceControlWindows_ChooseAssetsToCheckInIndicator"
+msgid "Waiting for selection of assets to commit..."
+msgstr "Waiting for selection of assets to commit..."
+
+#. Key:	SourceControlWindows_NoAssetsToCheckIn
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(69)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(69)
+msgctxt "DiversionEngineTextOverrides,SourceControlWindows_NoAssetsToCheckIn"
+msgid "No changes to commit"
+msgstr "No changes to commit"
+
+#. Key:	SourceControlCommands_SubmitContent_ToolTip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(72)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(72)
+msgctxt "DiversionEngineTextOverrides,SourceControlCommands_SubmitContent_ToolTip"
+msgid "Opens a dialog with commit options for content and levels."
+msgstr "Opens a dialog with commit options for content and levels."
+
+#. Key:	SourceControlCommands_SubmitContent
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(75)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(75)
+msgctxt "DiversionEngineTextOverrides,SourceControlCommands_SubmitContent"
+msgid "Commit Changes"
+msgstr "Commit Changes"
+
+#. Key:	SourceControlCommands_CheckOutModifiedFiles_ToolTip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(78)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(78)
+msgctxt "DiversionEngineTextOverrides,SourceControlCommands_CheckOutModifiedFiles_ToolTip"
+msgid "Saves all modified assets."
+msgstr "Saves all modified assets."
+
+#. Key:	SourceControlCommands_CheckOutModifiedFiles
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(81)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(81)
+msgctxt "DiversionEngineTextOverrides,SourceControlCommands_CheckOutModifiedFiles"
+msgid "Save Modified Files"
+msgstr "Save Modified Files"
+
+#. Key:	SourceControl.SubmitPanel_ChangeListDesc
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(84)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(84)
+msgctxt "DiversionEngineTextOverrides,SourceControl.SubmitPanel_ChangeListDesc"
+msgid "Commit Message"
+msgstr "Commit Message"
+
+#. Key:	SourceControl.SubmitPanel_OKButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(87)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(87)
+msgctxt "DiversionEngineTextOverrides,SourceControl.SubmitPanel_OKButton"
+msgid "Commit"
+msgstr "Commit"
+
+#. Key:	SourceControl.SubmitPanel_KeepCheckedOut
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(90)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(90)
+msgctxt "DiversionEngineTextOverrides,SourceControl.SubmitPanel_KeepCheckedOut"
+msgid "Thank you for using Diversion!"
+msgstr "Thank you for using Diversion!"
+
+#. Key:	SourceControl.SubmitPanel_ChangeListDescWarning
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(93)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(93)
+msgctxt "DiversionEngineTextOverrides,SourceControl.SubmitPanel_ChangeListDescWarning"
+msgid "Commit message is required"
+msgstr "Commit message is required"
+
+#. Key:	SourceControl.SubmitWindow_Title
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(96)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(96)
+msgctxt "DiversionEngineTextOverrides,SourceControl.SubmitWindow_Title"
+msgid "Commit Files"
+msgstr "Commit Files"
+
+#. Key:	SourceControlCommands_SourceControlStatus_Error_ServerUnavailable
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(99)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionEngineTextOverrides.cpp(99)
+msgctxt "DiversionEngineTextOverrides,SourceControlCommands_SourceControlStatus_Error_ServerUnavailable"
+msgid "Sync Paused"
+msgstr "Sync Paused"
+
+#. Key:	DiversionSettingsName
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(137)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(137)
+msgctxt "Diversion,DiversionSettingsName"
+msgid "Diversion"
+msgstr "Diversion"
+
+#. Key:	DiversionSettingsDescription
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(138)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(138)
+msgctxt "Diversion,DiversionSettingsDescription"
+msgid "Configure the Diversion plugin"
+msgstr "Configure the Diversion plugin"
+
+#. Key:	AssetOpenDialog_ReadOnly
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(378)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(378)
+msgctxt "Diversion,AssetOpenDialog_ReadOnly"
+msgid "Read Only"
+msgstr "Read Only"
+
+#. Key:	Feedback_Text
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(388)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(388)
+msgctxt "Diversion,Feedback_Text"
+msgid "Feedback"
+msgstr "Feedback"
+
+#. Key:	HardLockMessage
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(455)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(455)
+msgctxt "Diversion,HardLockMessage"
+msgid "{0} is locked\n\nLocked by: {1}\nSince: {2}\nAsset: {3}\n\nYou can open and edit it, and saves sync to your workspace as usual.\nCommitting this file stays blocked until it is unlocked by its holder or a repository admin."
+msgstr "{0} is locked\n\nLocked by: {1}\nSince: {2}\nAsset: {3}\n\nYou can open and edit it, and saves sync to your workspace as usual.\nCommitting this file stays blocked until it is unlocked by its holder or a repository admin."
+
+#. Key:	DiversionHardLockTitle
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(460)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(460)
+msgctxt "Diversion,DiversionHardLockTitle"
+msgid "Diversion - File Locked"
+msgstr "Diversion - File Locked"
+
+#. Key:	AssetOpenDialog_Open
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(467)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(467)
+msgctxt "Diversion,AssetOpenDialog_Open"
+msgid "Open"
+msgstr "Open"
+
+#. Key:	AssetOpenDialog_Close
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(470)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(470)
+msgctxt "Diversion,AssetOpenDialog_Close"
+msgid "Close"
+msgstr "Close"
+
+#. Key:	HardLockDocs_Text
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(476)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(476)
+msgctxt "Diversion,HardLockDocs_Text"
+msgid "Learn More"
+msgstr "Learn More"
+
+#. Key:	HardLockDocs_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(477)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(477)
+msgctxt "Diversion,HardLockDocs_Tooltip"
+msgid "Open the Diversion documentation to learn more about hard locks"
+msgstr "Open the Diversion documentation to learn more about hard locks"
+
+#. Key:	Feedback_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(485)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(485)
+msgctxt "Diversion,Feedback_Tooltip"
+msgid "Your feedback is valuable to us! If you are having issues please let us know."
+msgstr "Your feedback is valuable to us! If you are having issues please let us know."
+
+#. Key:	AutoSoftLockMessage
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(557)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(557)
+msgctxt "Diversion,AutoSoftLockMessage"
+msgid "Trying to open: \"{0}\"\n\nA newer version of this asset exists in another workspace and it was automatically soft-locked. The file can be opened for viewing and editing, but if changes are saved a conflict might be created - proceed with caution.\n\nTo see who is editing this file, close this dialog and hover the file in the Content Drawer."
+msgstr "Trying to open: \"{0}\"\n\nA newer version of this asset exists in another workspace and it was automatically soft-locked. The file can be opened for viewing and editing, but if changes are saved a conflict might be created - proceed with caution.\n\nTo see who is editing this file, close this dialog and hover the file in the Content Drawer."
+
+#. Key:	DiversionPotentialClashTitle
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(562)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(562)
+msgctxt "Diversion,DiversionPotentialClashTitle"
+msgid "Diversion - Auto Soft-Locked Asset"
+msgstr "Diversion - Auto Soft-Locked Asset"
+
+#. Key:	AssetOpenDialog_OpenForEdit
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(568)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(568)
+msgctxt "Diversion,AssetOpenDialog_OpenForEdit"
+msgid "Open For Edit"
+msgstr "Open For Edit"
+
+#. Key:	SoftLockFeedback_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(575)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(575)
+msgctxt "Diversion,SoftLockFeedback_Tooltip"
+msgid "This is an experimental feature. Your feedback is valuable to us! If you are having issues please let us know."
+msgstr "This is an experimental feature. Your feedback is valuable to us! If you are having issues please let us know."
+
+#. Key:	Disabled_Text
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(578)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(578)
+msgctxt "Diversion,Disabled_Text"
+msgid "Disable"
+msgstr "Disable"
+
+#. Key:	Disabled_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(579)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(579)
+msgctxt "Diversion,Disabled_Tooltip"
+msgid "To disable this feature, click here to open the settings dialog and uncheck \"Enable Diversion Auto Soft Lock Confirmations\""
+msgstr "To disable this feature, click here to open the settings dialog and uncheck \"Enable Diversion Auto Soft Lock Confirmations\""
+
+#. Key:	ConflictedFileOpen_ExtraConfirmation
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(601)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionModule.cpp(601)
+msgctxt "Diversion,ConflictedFileOpen_ExtraConfirmation"
+msgid "I understand that editing this file may create a conflict"
+msgstr "I understand that editing this file may create a conflict"
+
+#. Key:	OperationNotSupported
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(1137)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(1137)
+msgctxt "Diversion,OperationNotSupported"
+msgid "Operation: {0} is inapplicable for Diversion"
+msgstr "Operation: {0} is inapplicable for Diversion"
+
+#. Key:	DiversionNotInstalled
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(593)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(593)
+msgctxt "Diversion,DiversionNotInstalled"
+msgid "Diversion is not installed. Documentation available at https://docs.diversion.dev/ue-quickstart?utm_source=ue-plugin&utm_medium=plugin"
+msgstr "Diversion is not installed. Documentation available at https://docs.diversion.dev/ue-quickstart?utm_source=ue-plugin&utm_medium=plugin"
+
+#. Key:	AgentIsDown
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(603)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(603)
+msgctxt "Diversion,AgentIsDown"
+msgid "Diversion agent is not running. Start it by clicking the start button or by running 'dv' in a cmd."
+msgstr "Diversion agent is not running. Start it by clicking the start button or by running 'dv' in a cmd."
+
+#. Key:	NotADiversionRepository
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(613)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(613)
+msgctxt "Diversion,NotADiversionRepository"
+msgid "Failed to enable Diversion revision control. You need to initialize the project as a Diversion repository first."
+msgstr "Failed to enable Diversion revision control. You need to initialize the project as a Diversion repository first."
+
+#. Key:	CommitMessage
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(641)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(641)
+msgctxt "Diversion,CommitMessage"
+msgid "Commit {0} was added successfully."
+msgstr "Commit {0} was added successfully."
+
+#. Key:	CommitMessageUnknown
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(643)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.cpp(643)
+msgctxt "Diversion,CommitMessageUnknown"
+msgid "Submitted revision."
+msgstr "Submitted revision."
+
+#. Key:	SourceControl_AgentHealthCheck
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(112)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(112)
+msgctxt "DiversionOperations,SourceControl_AgentHealthCheck"
+msgid "Checking Diversion Sync Agent status..."
+msgstr "Checking Diversion Sync Agent status..."
+
+#. Key:	SourceControl_FinalizeMerge
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(128)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(128)
+msgctxt "DiversionOperations,SourceControl_FinalizeMerge"
+msgid "Finalizing merge..."
+msgstr "Finalizing merge..."
+
+#. Key:	SourceControl_ResolveFile
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(155)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(155)
+msgctxt "DiversionOperations,SourceControl_ResolveFile"
+msgid "Resolving file(s)..."
+msgstr "Resolving file(s)..."
+
+#. Key:	SourceControl_InitRepo
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(193)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(193)
+msgctxt "DiversionOperations,SourceControl_InitRepo"
+msgid "Initializing repository..."
+msgstr "Initializing repository..."
+
+#. Key:	SourceControl_GetPotentialClashes
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(232)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(232)
+msgctxt "DiversionOperations,SourceControl_GetPotentialClashes"
+msgid "Updating file Revision Control status..."
+msgstr "Updating file Revision Control status..."
+
+#. Key:	SourceControl_GetFileLocks
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(253)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(253)
+msgctxt "DiversionOperations,SourceControl_GetFileLocks"
+msgid "Checking file lock status..."
+msgstr "Checking file lock status..."
+
+#. Key:	SourceControl_UpdateFileLock_Lock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(268)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(268)
+msgctxt "DiversionOperations,SourceControl_UpdateFileLock_Lock"
+msgid "Locking files..."
+msgstr "Locking files..."
+
+#. Key:	SourceControl_UpdateFileLock_Unlock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(269)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(269)
+msgctxt "DiversionOperations,SourceControl_UpdateFileLock_Unlock"
+msgid "Releasing file locks..."
+msgstr "Releasing file locks..."
+
+#. Key:	SourceControl_GetHardLocksEligibility
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(308)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(308)
+msgctxt "DiversionOperations,SourceControl_GetHardLocksEligibility"
+msgid "Checking repository lock support..."
+msgstr "Checking repository lock support..."
+
+#. Key:	SourceControl_GetConflictedFiles
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(322)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(322)
+msgctxt "DiversionOperations,SourceControl_GetConflictedFiles"
+msgid "Checking for conflicts in your workspace..."
+msgstr "Checking for conflicts in your workspace..."
+
+#. Key:	SourceControl_CheckForRepoWithSameName
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(336)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(336)
+msgctxt "DiversionOperations,SourceControl_CheckForRepoWithSameName"
+msgid "Making sure a repo with the same name doesn't already exist"
+msgstr "Making sure a repo with the same name doesn't already exist"
+
+#. Key:	SourceControl_CheckIfWorkspaceExistsInPath
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(363)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(363)
+msgctxt "DiversionOperations,SourceControl_CheckIfWorkspaceExistsInPath"
+msgid "Checking if a workspace already exists in the path"
+msgstr "Checking if a workspace already exists in the path"
+
+#. Key:	SourceControl_GetWsInfo
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(50)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionOperations.h(50)
+msgctxt "DiversionOperations,SourceControl_GetWsInfo"
+msgid "Getting Workspace Info..."
+msgstr "Getting Workspace Info..."
+
+#. Key:	PreSubmitValidationFailed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(1420)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(1420)
+msgctxt "Diversion,PreSubmitValidationFailed"
+msgid "Pre-submit validation failed. Commit aborted. See Message Log for details."
+msgstr "Pre-submit validation failed. Commit aborted. See Message Log for details."
+
+#. Key:	UnsupportedOperation
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(1438)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(1438)
+msgctxt "Diversion,UnsupportedOperation"
+msgid "Operation '{OperationName}' not supported by revision control provider '{ProviderName}'"
+msgstr "Operation '{OperationName}' not supported by revision control provider '{ProviderName}'"
+
+#. Key:	NoSCCThreads
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(1756)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(1756)
+msgctxt "Diversion,NoSCCThreads"
+msgid "There are no threads available to process the revision control command: {0}."
+msgstr "There are no threads available to process the revision control command: {0}."
+
+#. Key:	DiversionLockedFiles_OnSaveMessage
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(1855)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(1855)
+msgctxt "Diversion,DiversionLockedFiles_OnSaveMessage"
+msgid "The file \"{0}\" has been updated in the cloud repo. To protect your unsaved local changes, Diversion created a backup copy with a `_resolved` postfix. This backup allows you to compare your changes with the incoming version."
+msgstr "The file \"{0}\" has been updated in the cloud repo. To protect your unsaved local changes, Diversion created a backup copy with a `_resolved` postfix. This backup allows you to compare your changes with the incoming version."
+
+#. Key:	DiversionPopup_BackupMineButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2007)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2007)
+msgctxt "Diversion,DiversionPopup_BackupMineButton"
+msgid "Backup"
+msgstr "Backup"
+
+#. Key:	DiversionPopup_BackupMineButton_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2008)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2008)
+msgctxt "Diversion,DiversionPopup_BackupMineButton_Tooltip"
+msgid "Save a copy of your current changes to a new file with a `_resolved` postfix. The package will be closed, and both versions can be opened from the drawer for comparison."
+msgstr "Save a copy of your current changes to a new file with a `_resolved` postfix. The package will be closed, and both versions can be opened from the drawer for comparison."
+
+#. Key:	DiversionPopup_AcceptIncomingButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2025)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2025)
+msgctxt "Diversion,DiversionPopup_AcceptIncomingButton"
+msgid "Accept incoming"
+msgstr "Accept incoming"
+
+#. Key:	DiversionPopup_AcceptIncomingButton_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2026)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2026)
+msgctxt "Diversion,DiversionPopup_AcceptIncomingButton_Tooltip"
+msgid "Discard your local changes and update the package with the latest version from the cloud."
+msgstr "Discard your local changes and update the package with the latest version from the cloud."
+
+#. Key:	LockedFiles_UnsavedMessage
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2034)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2034)
+msgctxt "Diversion,LockedFiles_UnsavedMessage"
+msgid "The package \"{0}\" has been updated in the cloud repo. To protect your unsaved local changes, you can create a backup copy with a `_recovered` suffix. This backup allows you to compare your changes with the incoming version. Otherwise, your local changes will be overwritten by the update."
+msgstr "The package \"{0}\" has been updated in the cloud repo. To protect your unsaved local changes, you can create a backup copy with a `_recovered` suffix. This backup allows you to compare your changes with the incoming version. Otherwise, your local changes will be overwritten by the update."
+
+#. Key:	DiversionPopup_ClosePackageButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2060)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2060)
+msgctxt "Diversion,DiversionPopup_ClosePackageButton"
+msgid "Close tabs"
+msgstr "Close tabs"
+
+#. Key:	DiversionPopup_ClosePackageButton_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2061)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2061)
+msgctxt "Diversion,DiversionPopup_ClosePackageButton_Tooltip"
+msgid "Close the package opened editor tabs to continue syncing"
+msgstr "Close the package opened editor tabs to continue syncing"
+
+#. Key:	LockedFiles_OpenedMessage
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2068)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2068)
+msgctxt "Diversion,LockedFiles_OpenedMessage"
+msgid "'{0}' is currently opened in the editor view - Close it in order to continue syncing"
+msgstr "'{0}' is currently opened in the editor view - Close it in order to continue syncing"
+
+#. Key:	ReadOnlyPath_Message
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2133)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2133)
+msgctxt "Diversion,ReadOnlyPath_Message"
+msgid "Diversion can't sync incoming changes: {0}"
+msgstr "Diversion can't sync incoming changes: {0}"
+
+#. Key:	DiversionRevisionControlActions
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2196)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2196)
+msgctxt "Diversion,DiversionRevisionControlActions"
+msgid "Diversion"
+msgstr "Diversion"
+
+#. Key:	DiversionCommitChanges
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2199)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2199)
+msgctxt "Diversion,DiversionCommitChanges"
+msgid "Commit Changes"
+msgstr "Commit Changes"
+
+#. Key:	DiversionCommitChangesTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2200)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2200)
+msgctxt "Diversion,DiversionCommitChangesTooltip"
+msgid "Opens a dialog with check in options for content and levels."
+msgstr "Opens a dialog with check in options for content and levels."
+
+#. Key:	DiversionLockedFiles
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2209)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2209)
+msgctxt "Diversion,DiversionLockedFiles"
+msgid "Locked Files"
+msgstr "Locked Files"
+
+#. Key:	DiversionLockedFilesTooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2210)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(2210)
+msgctxt "Diversion,DiversionLockedFilesTooltip"
+msgid "Shows every file currently locked in this repository, with its holder."
+msgstr "Shows every file currently locked in this repository, with its holder."
+
+#. Key:	AgentStatus_Alive
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(411)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(411)
+msgctxt "Diversion,AgentStatus_Alive"
+msgid "alive. {0}"
+msgstr "alive. {0}"
+
+#. Key:	AgentStatus_NotRunning
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(412)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(412)
+msgctxt "Diversion,AgentStatus_NotRunning"
+msgid "not running."
+msgstr "not running."
+
+#. Key:	ProviderStatusText
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(423)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionProvider.cpp(423)
+msgctxt "Diversion,ProviderStatusText"
+msgid "Version {Version} (plugin {PluginVersion})\nAgent {AgentAlive}\nWorkspace: {WorkspaceName}\nRepository: {RepositoryName}\nBranch: {BranchName}\n"
+msgstr "Version {Version} (plugin {PluginVersion})\nAgent {AgentAlive}\nWorkspace: {WorkspaceName}\nRepository: {RepositoryName}\nBranch: {BranchName}\n"
+
+#. Key:	Syncing
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(185)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(185)
+msgctxt "Diversion.State,Syncing"
+msgid "Syncing"
+msgstr "Syncing"
+
+#. Key:	ContentsConflict
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(189)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(189)
+msgctxt "Diversion.State,ContentsConflict"
+msgid "Contents Conflict"
+msgstr "Contents Conflict"
+
+#. Key:	Unknown
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(195)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(195)
+msgctxt "Diversion.State,Unknown"
+msgid "Unknown"
+msgstr "Unknown"
+
+#. Key:	Unchanged
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(197)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(197)
+msgctxt "Diversion.State,Unchanged"
+msgid "Unchanged"
+msgstr "Unchanged"
+
+#. Key:	Added
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(199)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(199)
+msgctxt "Diversion.State,Added"
+msgid "Added"
+msgstr "Added"
+
+#. Key:	Deleted
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(201)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(201)
+msgctxt "Diversion.State,Deleted"
+msgid "Deleted"
+msgstr "Deleted"
+
+#. Key:	Modified
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(203)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(203)
+msgctxt "Diversion.State,Modified"
+msgid "Modified"
+msgstr "Modified"
+
+#. Key:	Renamed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(205)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(205)
+msgctxt "Diversion.State,Renamed"
+msgid "Renamed"
+msgstr "Renamed"
+
+#. Key:	Copied
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(207)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(207)
+msgctxt "Diversion.State,Copied"
+msgid "Copied"
+msgstr "Copied"
+
+#. Key:	Ignored
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(209)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(209)
+msgctxt "Diversion.State,Ignored"
+msgid "Ignored"
+msgstr "Ignored"
+
+#. Key:	NotControlled
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(211)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(211)
+msgctxt "Diversion.State,NotControlled"
+msgid "Not Under Revision Control"
+msgstr "Not Under Revision Control"
+
+#. Key:	Missing
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(213)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(213)
+msgctxt "Diversion.State,Missing"
+msgid "Missing"
+msgstr "Missing"
+
+#. Key:	Syncing_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(223)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(223)
+msgctxt "Diversion.State,Syncing_Tooltip"
+msgid "Syncing item state with the server"
+msgstr "Syncing item state with the server"
+
+#. Key:	ContentsConflict_Tooltip_AcceptCurrent
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(232)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(232)
+msgctxt "Diversion.State,ContentsConflict_Tooltip_AcceptCurrent"
+msgid "File conflict resolved to 'Current'."
+msgstr "File conflict resolved to 'Current'."
+
+#. Key:	ContentsConflict_Tooltip_AcceptIncoming
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(234)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(234)
+msgctxt "Diversion.State,ContentsConflict_Tooltip_AcceptIncoming"
+msgid "File conflict resolved to 'Incoming'."
+msgstr "File conflict resolved to 'Incoming'."
+
+#. Key:	ContentsConflict_Tooltip_AcceptCombined
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(236)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(236)
+msgctxt "Diversion.State,ContentsConflict_Tooltip_AcceptCombined"
+msgid "File conflict resolved to 'Combined'."
+msgstr "File conflict resolved to 'Combined'."
+
+#. Key:	ContentsConflict_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(239)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(239)
+msgctxt "Diversion.State,ContentsConflict_Tooltip"
+msgid "The contents of the item conflict with updates received from the repository."
+msgstr "The contents of the item conflict with updates received from the repository."
+
+#. Key:	Unknown_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(245)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(245)
+msgctxt "Diversion.State,Unknown_Tooltip"
+msgid "Unknown revision control state"
+msgstr "Unknown revision control state"
+
+#. Key:	Pristine_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(247)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(247)
+msgctxt "Diversion.State,Pristine_Tooltip"
+msgid "There are no modifications"
+msgstr "There are no modifications"
+
+#. Key:	Added_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(249)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(249)
+msgctxt "Diversion.State,Added_Tooltip"
+msgid "Item is scheduled for addition"
+msgstr "Item is scheduled for addition"
+
+#. Key:	Deleted_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(251)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(251)
+msgctxt "Diversion.State,Deleted_Tooltip"
+msgid "Item is scheduled for deletion"
+msgstr "Item is scheduled for deletion"
+
+#. Key:	Modified_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(253)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(253)
+msgctxt "Diversion.State,Modified_Tooltip"
+msgid "Item has been modified"
+msgstr "Item has been modified"
+
+#. Key:	Renamed_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(255)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(255)
+msgctxt "Diversion.State,Renamed_Tooltip"
+msgid "Item has been renamed"
+msgstr "Item has been renamed"
+
+#. Key:	Copied_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(257)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(257)
+msgctxt "Diversion.State,Copied_Tooltip"
+msgid "Item has been copied"
+msgstr "Item has been copied"
+
+#. Key:	Ignored_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(259)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(259)
+msgctxt "Diversion.State,Ignored_Tooltip"
+msgid "Item is being ignored."
+msgstr "Item is being ignored."
+
+#. Key:	NotControlled_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(261)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(261)
+msgctxt "Diversion.State,NotControlled_Tooltip"
+msgid "Item is not under version control."
+msgstr "Item is not under version control."
+
+#. Key:	Missing_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(263)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(263)
+msgctxt "Diversion.State,Missing_Tooltip"
+msgid "Item is missing (e.g., you moved or deleted it without using Diversion). This also indicates that a directory is incomplete (a checkout or update was interrupted)."
+msgstr "Item is missing (e.g., you moved or deleted it without using Diversion). This also indicates that a directory is incomplete (a checkout or update was interrupted)."
+
+#. Key:	OtherEditors_Header
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(465)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(465)
+msgctxt "Diversion.State,OtherEditors_Header"
+msgid "Potential Conflict!\nFile is also edited by:"
+msgstr "Potential Conflict!\nFile is also edited by:"
+
+#. Key:	OtherEditors_Line_NotCommitted
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(474)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(474)
+msgctxt "Diversion.State,OtherEditors_Line_NotCommitted"
+msgid "{Name} at {Time} on branch {Branch} (not-committed)"
+msgstr "{Name} at {Time} on branch {Branch} (not-committed)"
+
+#. Key:	OtherEditors_Line_Committed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(475)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(475)
+msgctxt "Diversion.State,OtherEditors_Line_Committed"
+msgid "{Name} at {Time} on branch {Branch} (committed)"
+msgstr "{Name} at {Time} on branch {Branch} (committed)"
+
+#. Key:	OtherEditors_More
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(479)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(479)
+msgctxt "Diversion.State,OtherEditors_More"
+msgid "... and {0} more"
+msgstr "... and {0} more"
+
+#. Key:	OtherEditorNames_Unknown
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(501)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(501)
+msgctxt "Diversion.State,OtherEditorNames_Unknown"
+msgid "another workspace"
+msgstr "another workspace"
+
+#. Key:	OtherEditorNames_Separator
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(510)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(510)
+msgctxt "Diversion.State,OtherEditorNames_Separator"
+msgid ", "
+msgstr ", "
+
+#. Key:	OtherEditorNames_More
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(513)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.cpp(513)
+msgctxt "Diversion.State,OtherEditorNames_More"
+msgid "{0} and {1} more"
+msgstr "{0} and {1} more"
+
+#. Key:	LockHolder_Unknown
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.h(127)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionState.h(127)
+msgctxt "Diversion,LockHolder_Unknown"
+msgid "another user"
+msgstr "another user"
+
+#. Key:	WsSyncStatus_Paused
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(386)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(386)
+msgctxt "DiversionUtils,WsSyncStatus_Paused"
+msgid "Sync is paused."
+msgstr "Sync is paused."
+
+#. Key:	WsSyncStatus_InProgress
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(388)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(388)
+msgctxt "DiversionUtils,WsSyncStatus_InProgress"
+msgid "Sync in Progress..."
+msgstr "Sync in Progress..."
+
+#. Key:	WsSyncStatus_Completed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(390)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(390)
+msgctxt "DiversionUtils,WsSyncStatus_Completed"
+msgid "Sync Complete!"
+msgstr "Sync Complete!"
+
+#. Key:	WsSyncStatus_PathError
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(392)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(392)
+msgctxt "DiversionUtils,WsSyncStatus_PathError"
+msgid "Sync temporarily stopped due to an inaccessible path."
+msgstr "Sync temporarily stopped due to an inaccessible path."
+
+#. Key:	WsSyncStatus_Unknown
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(394)
+#: Plugins/unreal-diversion/Source/Diversion/Private/DiversionUtils.cpp(394)
+msgctxt "DiversionUtils,WsSyncStatus_Unknown"
+msgid "Error! Unknown sync status."
+msgstr "Error! Unknown sync status."
+
+#. Key:	DiversionPopup_LockVerifyFailed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(401)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(401)
+msgctxt "Diversion,DiversionPopup_LockVerifyFailed"
+msgid "Diversion could not verify file locks - saving anyway. Hard-locked files are still protected by the server."
+msgstr "Diversion could not verify file locks - saving anyway. Hard-locked files are still protected by the server."
+
+#. Key:	Outcome_WillSaveAutoLock
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(639)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(639)
+msgctxt "Diversion,Outcome_WillSaveAutoLock"
+msgid "Will save - locked on sync (repo rule)"
+msgstr "Will save - locked on sync (repo rule)"
+
+#. Key:	Outcome_WillSave
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(640)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(640)
+msgctxt "Diversion,Outcome_WillSave"
+msgid "Will save"
+msgstr "Will save"
+
+#. Key:	DiversionSaveDecisionTitlePlural
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(654)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(654)
+msgctxt "Diversion,DiversionSaveDecisionTitlePlural"
+msgid "Diversion - Save Files"
+msgstr "Diversion - Save Files"
+
+#. Key:	DiversionSaveDecisionTitle
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(655)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(655)
+msgctxt "Diversion,DiversionSaveDecisionTitle"
+msgid "Diversion - Save File"
+msgstr "Diversion - Save File"
+
+#. Key:	DiversionPopup_LockServiceUnreachable
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(829)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(829)
+msgctxt "Diversion,DiversionPopup_LockServiceUnreachable"
+msgid "Diversion could not reach the lock service - saving without locks."
+msgstr "Diversion could not reach the lock service - saving without locks."
+
+#. Key:	DiversionPopup_LockRaceLost
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(851)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(851)
+msgctxt "Diversion,DiversionPopup_LockRaceLost"
+msgid "\"{0}\" is locked by {1} - the file was not saved."
+msgstr "\"{0}\" is locked by {1} - the file was not saved."
+
+#. Key:	DiversionPopup_LockFailed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(862)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SaveDecision/DiversionSaveDecisionGate.cpp(862)
+msgctxt "Diversion,DiversionPopup_LockFailed"
+msgid "\"{0}\" could not be locked (error {1}) - saved without a lock."
+msgstr "\"{0}\" could not be locked (error {1}) - saved without a lock."
+
+#. Key:	DiversionRunAgent
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(108)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(108)
+msgctxt "SDiversionSettings,DiversionRunAgent"
+msgid "Diversion agent is not running. Please start the agent to use this plugin."
+msgstr "Diversion agent is not running. Please start the agent to use this plugin."
+
+#. Key:	DiversionRunAgentButton
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(109)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(109)
+msgctxt "SDiversionSettings,DiversionRunAgentButton"
+msgid "Start Diversion Agent"
+msgstr "Start Diversion Agent"
+
+#. Key:	DiversionVersions
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(137)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(137)
+msgctxt "SDiversionSettings,DiversionVersions"
+msgid "Diversion version"
+msgstr "Diversion version"
+
+#. Key:	DiversionVersions_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(138)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(138)
+msgctxt "SDiversionSettings,DiversionVersions_Tooltip"
+msgid "Diversion and Plugin versions"
+msgstr "Diversion and Plugin versions"
+
+#. Key:	DiversionInitRepository
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(242)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(242)
+msgctxt "SDiversionSettings,DiversionInitRepository"
+msgid "Initialize project with Diversion"
+msgstr "Initialize project with Diversion"
+
+#. Key:	DiversionInitRepository_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(243)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(243)
+msgctxt "SDiversionSettings,DiversionInitRepository_Tooltip"
+msgid "Initialize current project as a new Diversion repository"
+msgstr "Initialize current project as a new Diversion repository"
+
+#. Key:	RepositoryRootLabel
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(302)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(302)
+msgctxt "SDiversionSettings,RepositoryRootLabel"
+msgid "Root of the repository"
+msgstr "Root of the repository"
+
+#. Key:	RepositoryRootLabel_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(303)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(303)
+msgctxt "SDiversionSettings,RepositoryRootLabel_Tooltip"
+msgid "Path to the root of the Diversion repository"
+msgstr "Path to the root of the Diversion repository"
+
+#. Key:	DiversionNotInstalled
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(33)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(33)
+msgctxt "SDiversionSettings,DiversionNotInstalled"
+msgid "Diversion is not installed. Please install Diversion and restart Unreal Engine."
+msgstr "Diversion is not installed. Please install Diversion and restart Unreal Engine."
+
+#. Key:	VersionsLabel
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(339)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(339)
+msgctxt "SDiversionSettings,VersionsLabel"
+msgid "{0} (plugin v{1})"
+msgstr "{0} (plugin v{1})"
+
+#. Key:	DiversionQuickstart
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(34)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(34)
+msgctxt "SDiversionSettings,DiversionQuickstart"
+msgid "Diversion Quickstart Guide"
+msgstr "Diversion Quickstart Guide"
+
+#. Key:	DiversionQuickstart_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(35)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(35)
+msgctxt "SDiversionSettings,DiversionQuickstart_Tooltip"
+msgid "Open Diversion quickstart guide in your browser"
+msgstr "Open Diversion quickstart guide in your browser"
+
+#. Key:	InvalidRepoPath
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(360)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(360)
+msgctxt "SDiversionSettings,InvalidRepoPath"
+msgid "Provided repository path is not a parent of the current project: {0}. Please choose a dir that is a parent of the project dir (or the project dir itself)"
+msgstr "Provided repository path is not a parent of the current project: {0}. Please choose a dir that is a parent of the project dir (or the project dir itself)"
+
+#. Key:	DiversionRepoInitFailed_LearnMore
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(388)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(388)
+msgctxt "SDiversionSettings,DiversionRepoInitFailed_LearnMore"
+msgid "Learn More"
+msgstr "Learn More"
+
+#. Key:	DiversionRepoInitFailed_LearnMore_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(389)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(389)
+msgctxt "SDiversionSettings,DiversionRepoInitFailed_LearnMore_Tooltip"
+msgid "View the documentation to understand and resolve this issue."
+msgstr "View the documentation to understand and resolve this issue."
+
+#. Key:	DiversionConfigExists
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(401)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(401)
+msgctxt "SDiversionSettings,DiversionConfigExists"
+msgid "Plugin initialization failed due to an existing '.diversion' config in this project path"
+msgstr "Plugin initialization failed due to an existing '.diversion' config in this project path"
+
+#. Key:	DiversionRepoInitFailed_GetSupport
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(409)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(409)
+msgctxt "SDiversionSettings,DiversionRepoInitFailed_GetSupport"
+msgid "Get Help"
+msgstr "Get Help"
+
+#. Key:	DiversionRepoInitFailed_GetSupport_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(410)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(410)
+msgctxt "SDiversionSettings,DiversionRepoInitFailed_GetSupport_Tooltip"
+msgid "Access support and get assistance for this issue"
+msgstr "Access support and get assistance for this issue"
+
+#. Key:	Initialization_Failure
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(422)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(422)
+msgctxt "SDiversionSettings,Initialization_Failure"
+msgid "Repository initialization failed"
+msgstr "Repository initialization failed"
+
+#. Key:	InitialSyncStarted
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(434)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(434)
+msgctxt "SDiversionSettings,InitialSyncStarted"
+msgid "Diversion is now syncing your files in the background. This might take a while. Source control operations will be available once the initial sync has finished."
+msgstr "Diversion is now syncing your files in the background. This might take a while. Source control operations will be available once the initial sync has finished."
+
+#. Key:	StartAgentFailed
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(476)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(476)
+msgctxt "SDiversionSettings,StartAgentFailed"
+msgid "Failed starting Diversion Sync Agent"
+msgstr "Failed starting Diversion Sync Agent"
+
+#. Key:	InitialCommit_Success
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(535)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(535)
+msgctxt "SDiversionSettings,InitialCommit_Success"
+msgid "{0} operation completed successfully"
+msgstr "{0} operation completed successfully"
+
+#. Key:	DiversionRepoWithSameNameExists
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(66)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(66)
+msgctxt "SDiversionSettings,DiversionRepoWithSameNameExists"
+msgid "You already have a repository with the same name.\n The Unreal plugin cannot initialize.\n Please refer to the documentation for available options"
+msgstr "You already have a repository with the same name.\n The Unreal plugin cannot initialize.\n Please refer to the documentation for available options"
+
+#. Key:	DiversionRepoWithSameNameExists_LearnMore
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(67)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(67)
+msgctxt "SDiversionSettings,DiversionRepoWithSameNameExists_LearnMore"
+msgid "Learn More"
+msgstr "Learn More"
+
+#. Key:	DiversionRepoWithSameNameExists_LearnMore_Tooltip
+#. SourceLocation:	Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(68)
+#: Plugins/unreal-diversion/Source/Diversion/Private/SDiversionSettings.cpp(68)
+msgctxt "SDiversionSettings,DiversionRepoWithSameNameExists_LearnMore_Tooltip"
+msgid "View the documentation to understand and resolve this issue."
+msgstr "View the documentation to understand and resolve this issue."
+

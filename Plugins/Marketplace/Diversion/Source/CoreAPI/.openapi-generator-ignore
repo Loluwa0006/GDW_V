@@ -1,0 +1,16 @@
+git_push.sh
+.gitignore
+CMakeLists.txt
+Config.cmake.in
+/include/DiversionCoreAPI/Object.h
+/include/DiversionCoreAPI/ApiClient.h
+/include/DiversionCoreAPI/IHttpBody.h
+/include/DiversionCoreAPI/ApiException.h
+/include/DiversionCoreAPI/ApiConfiguration.h
+/include/DiversionCoreAPI/MultipartFormData.h
+/src/Object.cpp
+/src/ApiClient.cpp
+/src/ModelBase.cpp
+/src/ApiException.cpp
+/src/ApiConfiguration.cpp
+/src/MultipartFormData.cpp

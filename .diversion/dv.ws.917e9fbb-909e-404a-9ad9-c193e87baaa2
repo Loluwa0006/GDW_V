@@ -1,0 +1,14 @@
+{
+  "WorkspaceID": "dv.ws.917e9fbb-909e-404a-9ad9-c193e87baaa2",
+  "RepoID": "dv.repo.bf81852b-31dc-45ad-9537-e3f260e52d2d",
+  "Path": "C:\\Users\\temia\\Downloads\\GDW_V",
+  "AccountID": "GitHub_188720183",
+  "BranchID": "dv.branch.42",
+  "BranchName": "Temi-Unstable",
+  "CommitID": "dv.commit.232",
+  "Paused": false,
+  "ShouldDownload": false,
+  "RepoName": "GDW_V",
+  "ReadOnly": false,
+  "DigestMethod": "sha1"
+}
