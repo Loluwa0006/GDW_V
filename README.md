@@ -60,3 +60,9 @@ GetNewInteractVFXFromPool()
 PlayVFXAttached() (VFX Creation System Before Object Pooling Implementation)
 <img width="1820" height="1217" alt="Screenshot 2026-11-16 230727" src="https://github.com/user-attachments/assets/5c73b71d-f4dc-4d4b-96b0-9064fdbc6acc" />
 
+
+Blueprints:
+**PlayerVFXManager**
+Content/Components/Player/PlayerVFXManager.uasset 
+**HealthComponent**
+Content/Components/HealthSystems/HealthComponent.uasset
