@@ -57,3 +57,6 @@ VFX Pool Creation (Part of Begin Play)
 GetNewInteractVFXFromPool()
 <img width="1817" height="1216" alt="Screenshot 2026-11-16 230455" src="https://github.com/user-attachments/assets/439e0b6d-2503-499e-b885-17486d7bcc97" />
 
+PlayVFXAttached() (VFX Creation System Before Object Pooling Implementation)
+<img width="1820" height="1217" alt="Screenshot 2026-11-16 230727" src="https://github.com/user-attachments/assets/5c73b71d-f4dc-4d4b-96b0-9064fdbc6acc" />
+
